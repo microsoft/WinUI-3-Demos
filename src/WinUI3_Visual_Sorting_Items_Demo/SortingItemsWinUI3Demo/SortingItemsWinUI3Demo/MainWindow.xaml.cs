@@ -148,7 +148,7 @@ namespace VisualSorting
             }
             catch (OperationCanceledException)
             {
-                myInfoBar.Message = AppResourceManager.GetInstance.GetString("InforBar.Message.ActionCancelled"); ;
+                myInfoBar.Message = AppResourceManager.GetInstance.GetString("InforBar.Message.ActionCancelled");
                 myInfoBar.Severity = InfoBarSeverity.Error;
                 myProgressRing.IsActive = false;
             }
